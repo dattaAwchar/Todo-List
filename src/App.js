@@ -65,7 +65,7 @@ function App() {
   return (
     <>
       <Alert message={alertMessage}/>
-      <Navbar title="Public Todos List" />
+      <Navbar title="Personal Todos List" />
 
 
       <AddTodo addTodo={addTodo} showAlert={setAlertMessage} />
